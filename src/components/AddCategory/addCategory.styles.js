@@ -22,7 +22,7 @@ const StyledForm = styled.form`
     input {
       font-size: 16px;
       border-radius: 10px;
-      padding: 10px;
+      padding: 5px;
       border: none;
       background-color: #e6e6e6;
       box-shadow: 0px 0px 32px -12px rgba(0, 0, 0, 0.15);
