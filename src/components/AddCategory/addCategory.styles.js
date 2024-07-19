@@ -20,7 +20,6 @@ const StyledForm = styled.form`
   @media only screen and (max-width: 425px) {
     width: 100%;
     input {
-      font-size: 28px;
       font-size: 16px;
       border-radius: 10px;
       padding: 10px;
