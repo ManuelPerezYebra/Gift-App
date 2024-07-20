@@ -1,15 +1,8 @@
 import styled from 'styled-components';
 
 const StyledForm = styled.form`
-  display: flex;
-  flex: wrap;
-
-  justify-content: space-between;
-  align-items: center;
   width: 100%;
   color: black;
-  padding: 10px;
-
   input {
     color: #333333;
     font-size: 18px;
@@ -19,39 +12,56 @@ const StyledForm = styled.form`
     border: none;
     background-color: #e6e6e6;
     box-shadow: 0px 0px 32px -12px rgba(0, 0, 0, 0.15);
-    width: 55%;
-    margin: 5px 0;
-
-    @media only screen and (max-width: 425px) {
-      font-size: 14px;
-      padding: 5px;
-      flex: 1 1 100%;
-      margin: 5px 0;
-    }
+    width: 50%;
   }
-
-  input[type='number'] {
-    margin-left: 1%;
-    font-size: 18px;
-    text-align: center;
-    width: 20%;
-
-    @media only screen and (max-width: 425px) {
-      font-size: 14px;
-      flex: 1 1 45%;
-    }
-  }
-
   input[type='submit'] {
     margin-left: 1%;
     font-size: 18px;
-    flex: 1 1 20%;
+    color: #333333;
+
+    width: 20%;
+
+    box-shadow: 0px 0px 32px -12px rgba(0, 0, 0, 0.15);
+  }
+  input[type='number'] {
+    color: #333333;
+
+    margin-left: 1%;
+    font-size: 18px;
+
+    width: 20%;
     text-align: center;
 
-    @media only screen and (max-width: 425px) {
-      font-size: 14px;
-      flex: 1 1 45%;
+    box-shadow: 0px 0px 32px -12px rgba(0, 0, 0, 0.15);
+  }
+  @media only screen and (max-width: 425px) {
+    width: 100%;
+
+    input {
+      font-size: 12px;
+      border-radius: 10px;
+      padding: 5px;
+      border: none;
+      background-color: #e6e6e6;
+      box-shadow: 0px 0px 32px -12px rgba(0, 0, 0, 0.15);
+      width: 55%;
     }
+    input[type='number'] {
+      font-size: 12px;
+
+      margin-left: 1%;
+      width: 20%;
+      text-align: center;
+
+      box-shadow: 0px 0px 32px -12px rgba(0, 0, 0, 0.15);
+    }
+  }
+  input[type='submit'] {
+    margin-left: 1%;
+    width: 20%;
+    font-size: 12px;
+
+    box-shadow: 0px 0px 32px -12px rgba(0, 0, 0, 0.15);
   }
 `;
 
