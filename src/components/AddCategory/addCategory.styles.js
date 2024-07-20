@@ -38,7 +38,7 @@ const StyledForm = styled.form`
     width: 100%;
 
     input {
-      font-size: 12px;
+      font-size: 8px;
       border-radius: 10px;
       padding: 5px;
       border: none;
@@ -47,7 +47,7 @@ const StyledForm = styled.form`
       width: 55%;
     }
     input[type='number'] {
-      font-size: 12px;
+      font-size: 8px;
 
       margin-left: 1%;
       width: 20%;
@@ -59,7 +59,7 @@ const StyledForm = styled.form`
   input[type='submit'] {
     margin-left: 1%;
     width: 20%;
-    font-size: 12px;
+    font-size: 8px;
 
     box-shadow: 0px 0px 32px -12px rgba(0, 0, 0, 0.15);
   }
