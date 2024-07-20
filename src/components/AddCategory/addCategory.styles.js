@@ -34,7 +34,7 @@ const StyledForm = styled.form`
 
     box-shadow: 0px 0px 32px -12px rgba(0, 0, 0, 0.15);
   }
-  @media only screen and (max-width: 425px) {
+  @media only screen and (max-width: 470px) {
     width: 100%;
     font-size: 12px;
 
