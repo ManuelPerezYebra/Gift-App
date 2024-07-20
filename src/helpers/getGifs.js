@@ -1,8 +1,14 @@
 export const getGifs = async (category, limit) => {
-  const url = `https://api.giphy.com/v1/gifs/search?api_key=yk9wiBBkzYjtwINPM710rob5xHetafje&q=${category}&limit=${limit}`;
+  let url;
+  if (!category) {
+    url = `https://api.giphy.com/v1/gifs/trending?api_key=yk9wiBBkzYjtwINPM710rob5xHetafje&limit=${limit}`;
+  } else {
+    url = `https://api.giphy.com/v1/gifs/search?api_key=yk9wiBBkzYjtwINPM710rob5xHetafje&q=${category}&limit=${limit}`;
+  }
 
   const resp = await fetch(url);
   const { data } = await resp.json();
+
   const gifs = data.map(img => ({
     id: img.id,
     title: img.title,

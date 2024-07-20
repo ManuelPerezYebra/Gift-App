@@ -7,7 +7,7 @@ import { CounterContext } from '../context/CounterContext';
 
 const GifExpertApp = () => {
   const [categories, setCategories] = useState([
-    { name: 'Trending', numberOfGift: 20 }
+    { name: '', numberOfGift: 20 }
   ]);
   const { counter } = useContext(CounterContext);
 
