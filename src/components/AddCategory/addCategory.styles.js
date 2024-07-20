@@ -36,17 +36,23 @@ const StyledForm = styled.form`
   }
   @media only screen and (max-width: 470px) {
     width: 100%;
-    font-size: 12px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
 
     input {
+      font-size: 14px;
+
       border-radius: 10px;
       padding: 5px;
       border: none;
       background-color: #e6e6e6;
       box-shadow: 0px 0px 32px -12px rgba(0, 0, 0, 0.15);
-      width: 55%;
+      width: 60%;
     }
     input[type='number'] {
+      font-size: 14px;
+
       margin-left: 1%;
       width: 20%;
       text-align: center;
@@ -55,6 +61,8 @@ const StyledForm = styled.form`
     }
   }
   input[type='submit'] {
+    font-size: 14px;
+
     margin-left: 1%;
     width: 20%;
     box-shadow: 0px 0px 32px -12px rgba(0, 0, 0, 0.15);
