@@ -36,10 +36,9 @@ const StyledForm = styled.form`
   }
   @media only screen and (max-width: 425px) {
     width: 100%;
-    font-size: 8px;
+    font-size: 12px;
 
     input {
-      font-size: 8px;
       border-radius: 10px;
       padding: 5px;
       border: none;
@@ -48,8 +47,6 @@ const StyledForm = styled.form`
       width: 55%;
     }
     input[type='number'] {
-      font-size: 8px;
-
       margin-left: 1%;
       width: 20%;
       text-align: center;
@@ -60,8 +57,6 @@ const StyledForm = styled.form`
   input[type='submit'] {
     margin-left: 1%;
     width: 20%;
-    font-size: 8px;
-
     box-shadow: 0px 0px 32px -12px rgba(0, 0, 0, 0.15);
   }
 `;
