@@ -3,35 +3,58 @@ import styled from 'styled-components';
 const StyledForm = styled.form`
   width: 100%;
   input {
-    font-size: 28px;
+    font-size: 18px;
     border-radius: 10px;
     padding: 10px;
+    padding-left: 20px;
     border: none;
     background-color: #e6e6e6;
     box-shadow: 0px 0px 32px -12px rgba(0, 0, 0, 0.15);
-    width: 78%;
+    width: 50%;
   }
   input[type='submit'] {
     margin-left: 1%;
+    font-size: 18px;
+    color: #333333;
+
     width: 20%;
+
+    box-shadow: 0px 0px 32px -12px rgba(0, 0, 0, 0.15);
+  }
+  input[type='number'] {
+    margin-left: 1%;
+    font-size: 18px;
+
+    width: 20%;
+    text-align: center;
 
     box-shadow: 0px 0px 32px -12px rgba(0, 0, 0, 0.15);
   }
   @media only screen and (max-width: 425px) {
     width: 100%;
+
     input {
-      font-size: 16px;
+      font-size: 14px;
       border-radius: 10px;
       padding: 5px;
       border: none;
       background-color: #e6e6e6;
       box-shadow: 0px 0px 32px -12px rgba(0, 0, 0, 0.15);
-      width: 68%;
+      width: 55%;
     }
     input[type='submit'] {
       margin-left: 1%;
-      width: 30%;
-      font-size: 16px;
+      width: 20%;
+      font-size: 14px;
+
+      box-shadow: 0px 0px 32px -12px rgba(0, 0, 0, 0.15);
+    }
+    input[type='number'] {
+      font-size: 14px;
+
+      margin-left: 1%;
+      width: 20%;
+      text-align: center;
 
       box-shadow: 0px 0px 32px -12px rgba(0, 0, 0, 0.15);
     }

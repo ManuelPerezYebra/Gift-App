@@ -6,6 +6,9 @@ export const GlobalStyles = createGlobalStyle`
   *::before{
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
+    background-color: #333333;
+
+    color: white;
   }
 
   img{
