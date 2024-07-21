@@ -3,7 +3,8 @@ import styled from 'styled-components';
 const GiftsContainer = styled.div`
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
+  justify-content: center;
+  gap: 20px;
   img {
     border-radius: 10px;
     max-width: 150px;
