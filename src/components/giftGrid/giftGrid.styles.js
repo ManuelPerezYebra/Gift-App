@@ -18,5 +18,14 @@ const GiftsContainer = styled.div`
     }
   }
 `;
+const InfoContainer = styled.div`
+  text-align: center;
+  h3 {
+    margin-bottom: 0px;
+  }
+  p {
+    margin-top: 5px;
+  }
+`;
 
-export { GiftsContainer };
+export { GiftsContainer, InfoContainer };
