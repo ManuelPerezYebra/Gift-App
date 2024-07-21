@@ -22,7 +22,7 @@ const GifExpertApp = () => {
   return (
     <>
       <MainContainer>
-        <h1>Your Favorite Gif API</h1>
+        <h1>Gif API Repository</h1>
         <AddCategory onNewCategory={onAddCategory} />
 
         {categories.map(category => (
