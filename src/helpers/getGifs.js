@@ -1,7 +1,7 @@
 export const getGifs = async (category, limit) => {
   let url;
   if (!category) {
-    url = `https://api.giphy.com/v1/gifs/trending?api_key=yk9wiBBkzYjtwINPM710rob5xHetafje&limit=${limit}`;
+    url = `https://api.giphy.com/v1/gifs/trending?api_key=yk9wiBBkzYjtwINPM710rob5xHetafje&limit=60`;
   } else {
     url = `https://api.giphy.com/v1/gifs/search?api_key=yk9wiBBkzYjtwINPM710rob5xHetafje&q=${category}&limit=${limit}`;
   }
