@@ -10,11 +10,12 @@ const GiftsContainer = styled.div`
     max-width: 150px;
   }
 
-  @media only screen and (max-width: 425px) {
+  @media only screen and (max-width: 500px) {
     gap: 5px;
+    width: 100%;
 
     img {
-      max-width: 80px;
+      max-width: 70px;
     }
   }
 `;
