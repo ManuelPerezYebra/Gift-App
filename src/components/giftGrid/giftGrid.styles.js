@@ -15,7 +15,7 @@ const GiftsContainer = styled.div`
     width: 100%;
 
     img {
-      max-width: 70px;
+      max-width: 75px;
     }
   }
 `;
